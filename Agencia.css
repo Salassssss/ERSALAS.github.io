@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label, form input, form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Botón del modo oscuro */
+#dark-mode-toggle {
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#dark-mode-toggle:hover {
+    background-color: #777;
+}
+
+/* Modo oscuro */
+body.dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+header.dark-mode, footer.dark-mode {
+    background-color: #111;
+    color: #f0f0f0;
+}
+
+form.dark-mode {
+    background-color: #444;
+}
+h2{ text-align:center;
+    
+ }
